@@ -1,0 +1,45 @@
+body {
+  height: 660px;
+  width: 660px;
+  margin: 0 auto;
+}
+
+nav {
+  height: 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#color-scheme-container {
+  height: 42px;
+  width: 61px;
+  background-color: grey;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+#color-scheme {
+  box-sizing: border-box;
+  height: 34px;
+  width: 51px;
+  border: 0.5px solid #313131;
+}
+
+#dropdown {
+  width: 312px;
+  height: 42px;
+}
+
+button {
+  width: 123px;
+  height: 42px;
+}
+
+#main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
